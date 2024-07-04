@@ -1,1 +1,2 @@
 # Radio-Scanner
+This code uses the RTL-SDR library to control an RTL-SDR device and scan a specified frequency range. For each frequency in the range, the code tunes the RTL-SDR device to that frequency and reads a small amount of data to warm up the device. Then, the code reads a larger amount of data and checks if the peak signal amplitude exceeds the specified threshold. If a signal is detected, the code prints a message indicating the frequency at which the signal was detected.
